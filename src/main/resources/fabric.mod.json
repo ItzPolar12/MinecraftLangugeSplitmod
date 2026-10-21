@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "linguacraft",
+  "version": "${version}",
+  "name": "LinguaCraft: English + Russian",
+  "description": "Learn Russian vocabulary while playing Minecraft. Adds Russian translations to item tooltips.",
+  "authors": ["LinguaCraft"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.linguacraft.LinguaCraftClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
